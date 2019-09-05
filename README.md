@@ -1,4 +1,4 @@
-# App that clones remote git repo and executes python file with given parameter
+# Python application that clones remote git repo and executes python file with given parameter
 
 Python3 application that
 clones a remote git repository into a workspace directory,
@@ -6,7 +6,7 @@ executes/evaluates the containing python file with a number parameter x,
 prints the result (e.g. x^2) and
 cleans up the working directory.
 
-The application should takes parameters:
+The application takes 3 parameters:
 - location of the remote git repository
 - git commit reference that should be executed and
 - the number x
